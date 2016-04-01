@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--schemaXml.xsd-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	   elementFormDefault="qualified">
+  
+  <xs:annotation>
+    <xs:documentation xml:lang="it">
+      XMLSchema from ©The C-TEAM corporation
+      ogni responsabilità NON è di miki (invece siiiii)
+    </xs:documentation>
+  </xs:annotation>
+  
+<!--definizioni tipi generali-->
+  
+  <xs:simpleType name="Tparole">
+<!-- Contiene parole e lettere maiuscole e minuscole più i spazi -->
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\w+( \w+)*"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+<!-- database degli utenti -->
+  
+  <xs:element name="utenti">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+	<xs:element name="utente" type="Tutente"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="Tutente">
+    <xs:sequence>
+      <xs:element name="username" type="Tusername"/>
+      <xs:element name="password" type="Tpassword"/>
+      <xs:element name="email" type="Temail"/>
+      <xs:element name="infoaggiuntive" type="Tinfoutente"/>
+    </xs:sequence>
+      <xs:attribute name="admin" type="xs:boolean" default="false"/>
+  </xs:complexType>
+  
+  <xs:simpleType name="Tusername">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]{2,}"/> <!--insicuro-->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Tpassword">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9]{8,20}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Temail">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9_.+-]+\.[a-zA-Z0-9_.+-]+"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="Tinfoutente">
+    <xs:sequence>
+      <xs:element name="nome" type="Tparole" minOccurs="0"/>
+      <xs:element name="cognome" type="Tparole" minOccurs="0"/>
+      <xs:element name="abilita" type="Tabilita" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="sesso" type="Tgenere"/>
+  </xs:complexType>
+  
+  <xs:simpleType name="Tabilita">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="principiante"/>
+      <xs:enumeration value="intermedia"/>
+      <xs:enumeration value="professionista"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="Tgenere">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="M|F"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+<!-- database delle ricette -->
+  
+  <xs:element name="ricette">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+	<xs:element name="ricetta" type="Tricetta"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="Tricetta">
+    <xs:sequence>
+      <xs:element name="tipo" type="Ttiporicetta"/>
+      <xs:element name="img" type="Timg"/>
+      <xs:element name="descrizione" type="xs:string"/>
+      <xs:element name="ingredienti" type="Tingredienti"/>
+      <xs:element name="procedimento" type="Tprocedimento"/>
+      <xs:element name="difficolta" type="Tdifficolta" minOccurs="0"/>
+      <xs:element name="tempo_preparazione" type="xs:positiveInteger" minOccurs="0"/>
+      <xs:element name="dosi_per" type="xs:positiveInteger" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="nome" type="Tparole" use="required"/>
+  </xs:complexType>
+  
+  <xs:simpleType name="Ttiporicetta">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="aperitivi"/>
+      <xs:enumeration value="antipasti"/>
+      <xs:enumeration value="primi"/>
+      <xs:enumeration value="secondi"/>
+      <xs:enumeration value="contorni"/>
+      <xs:enumeration value="dolci"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="Timg">
+    <xs:sequence>
+      <xs:element name="url" type="xs:string"/>
+      <xs:element name="alt" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Tingredienti" mixed="true">
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="ingrediente" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="Tprocedimento" mixed="true">
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+      <xs:element name="img" type="Timg"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:simpleType name="Tdifficolta">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="bassa"/>
+      <xs:enumeration value="media"/>
+      <xs:enumeration value="alta"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+<!-- database dei commenti -->
+  
+  <xs:element name="commenti">
+    <xs:complexType>
+      <xs:sequence minOccurs="0" maxOccurs="unbounded">
+	<xs:element name="ricetta" type="TcommentoRicetta"/>
+      </xs:sequence>
+      <xs:attribute name="n.commenti" type="xs:positiveInteger" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:complexType name="TcommentoRicetta">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="commento" type="Tcommento"/>
+    </xs:sequence>
+    <xs:attribute name="nome" type="Tparole" use="required"/>
+  </xs:complexType>
+  
+  <xs:complexType name="Tcommento">
+    <xs:sequence>
+      <xs:element name="utente" type="Tusername"/>
+      <xs:element name="abilita" type="Tabilita" minOccurs="0"/>
+      <xs:element name="voto" type="Tvoto" minOccurs="0"/>
+      <xs:element name="testo" type="xs:string"/>
+      <xs:element name="data" type="xs:dateTime"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:positiveInteger" use="required"/>
+    <xs:attribute name="segnalato" type="xs:string" fixed="si" />
+  </xs:complexType>
+  
+  <xs:simpleType name="Tvoto">
+    <xs:restriction base="xs:integer">
+      <xs:pattern value="1|2|3|4|5"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+<!--non ci sono le definizioni per il concorso-->
+  
+</xs:schema>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ricette.xml -->
+<ricette xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+	 xs:noNamespaceSchemaLocation="http://www.cucinafelice.it schemaXml.xsd" >
+  
+
+  
+  <!--	 
+  <ricetta nome="#">
+  <tipo>#</tipo>   aperitivi|antipasti|primi|secondi|contorni|dolci
+    <img><url>#</url><alt>#</alt></img> string
+    <descrizione>#</descrizione> string
+    <ingredienti> 
+      <ingrediente></ingrediente> 0+
+    </ingredienti>
+    <procedimento> string
+      <img> 0+
+	<url>#</url>
+	<alt>#</alt>
+      </img>
+    </procedimento>
+    <difficolta>bassa|media|alta</difficolta> 0-1
+    <tempo_preparazione></tempo_preparazione> 0-1
+    <dosi_per></dosi_per> 0-1
+  </ricetta>
+  -->
+  
+     <ricetta nome="Polpette aromatiche al vapore">
+    <tipo>antipasti</tipo>
+    <img><url>immagini/ricette/polpette/preview.jpg</url><alt>Polpette ultimate e servite con stecchino</alt></img>
+    <descrizione>Le polpette aromatiche al vapore sono un antipasto leggero ma gustoso preparato con carne di vitello macinata e insaporita con erbe aromatiche e cipollotto. 
+    La preparazione prevede la realizzazione delle tradizionali polpette che vengono poi cotte in vaporiera con acqua aromatizzata. 
+    Le polpette aromatiche al vapore rappresentano un ottimo compromesso tra leggerezza e gusto: la cottura al vapore senza grassi aggiunti, oltre ad essere salutare, esalta i profumi delle erbe aromatiche presenti nell’impasto: erba cipollina, prezzemolo, timo, maggiorana e per finire un tocco di freschezza con il finocchietto. 
+    Ideali per un antipasto leggero, le polpette aromatiche al vapore stupiranno i vostri commensali con un gusto inaspettato.</descrizione>
+    <ingredienti>1.5 lt acqua,50 gr di <ingrediente>Cipollotto</ingrediente>,1 spicchio d'<ingrediente>aglio</ingrediente>,20 rametti <ingrediente>Timo</ingrediente>,50 ml di <ingrediente>brodo vegetale</ingrediente>,3 foglie di <ingrediente>alloro</ingrediente>,50 gr di <ingrediente>pane</ingrediente>,2 <ingrediente>uova</ingrediente>,5 gr di <ingrediente>erba cipollina</ingrediente>,600 gr di <ingrediente>carne di vitello</ingrediente> macinata,5 gr di <ingrediente>prezzemolo</ingrediente>,sale q.b.,pepe q.b.</ingredienti>
+    <procedimento>Per preparare le polpette aromatiche al vapore iniziate a tritare le erbe aromatiche: tritate al coltello l'erba cipollina (1) il prezzemolo, il timo, la maggiorana e i semi di finocchietto (2) e tenete da parte. prendete il pane raffermo eliminate la crosta (3) e tagliate a dadini la mollica,<img><url>immagini/ricette/polpette/step_123.jpg</url><alt>illustrazione degli step 1, 2, 3 della preparazione</alt></img>ponetela in un frullatore (4) e tritatela finemente. Lavate il cipollotto, tagliate il gambo e tenetelo da parte (servirà per insaporire l’acqua di cottura) tritate il bulbo del cipollotto (5), fate stufare il cipollotto con un mestolo di brodo (6) o con acqua fino a farlo appassire.<img><url>immagini/ricette/polpette/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>Prendete una pentola munita di cestello per la cottura al vapore abbastanza capiente e versateci l’acqua, aggiungete gli aromi: l’alloro, il pepe in grani e il gambo del cipollotto che avete conservato (7).
+    Sbattete le uova in una ciotola (8), salate e pepate. In un'altra ciotola mettete la carne trita e insaporitela con l’aglio schiacciato (9),<img><url>immagini/ricette/polpette/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img>il cipollotto stufato intiepidito (10), le uova precedentemente sbattute (11) e per ultima la mollica sminuzzata con il frullatore (12).<img><url>immagini/ricette/polpette/step_101112.jpg</url><alt>illustrazione degli step 10, 11, 12 della preparazione</alt></img>Impastate il tutto fino a quando il composto risulterà omogeneo e compatto (13). Unite ora tutte le erbe aromatiche tritate in  precedenza: l'erba cipollina, il prezzemolo (14), il timo,la maggiorana (15),<img><url>immagini/ricette/polpette/step_131415.jpg</url><alt>illustrazione degli step 13, 14, 15 della preparazione</alt></img>e i semi di finocchietto (16). Ora formate le polpette: cercate di ottenere delle polpettine più o meno della stessa dimensione (17) (del peso di circa 20 gr ciascuna) in modo da avere una cottura omogenea. Infilzate le polpette con degli stuzzicadenti (18), riscaldate l'acqua della pentola e attendete il bollore.<img><url>immagini/ricette/polpette/step_161718.jpg</url><alt>illustrazione degli step 16, 17, 18 della preparazione</alt></img>Adagiate le polpette aromatiche nella vaporiera (19) e cuocetele per circa 18 minuti coperte con il coperchio (20).
+    (Se volete potete cuocere le polpette anche in forno: ponete le polpette in una pirofila oleata e cuocete in forno statico per 30 minuti a 180° o in forno ventilato a 160° per circa 25 minuti). Una volta cotte, servite le polpette aromatiche al vapore ben calde, se gradite potete accompagnarle con una fresca insalata di songino (21).<img><url>immagini/ricette/polpette/step_192021.jpg</url><alt>illustrazione degli step 19, 20, 21 della preparazione</alt></img></procedimento><difficolta>media</difficolta>
+  </ricetta>
+
+  <ricetta nome="Bellini cocktail">
+    <tipo>aperitivi</tipo>
+    <img><url>immagini/ricette/bellini/preview.jpg</url><alt>cocktail ultimato e guarnito con una fettina di pesca</alt></img>
+    <descrizione>Il cocktail Bellini fu ideato da Giuseppe Cipriani, appositamente per l’inaugurazione della mostra pittorica di Giovanni Bellini e in suo onore, nel 1950.
+    Originariamente il cocktail era composto da spumante, polpa di pesca bianca e un tocco di purea di lamponi che serviva a conferire un lieve colore rosato al tutto.</descrizione>
+    <ingredienti>7/10 di <ingrediente>Prosecco</ingrediente>,3/10 di <ingrediente>succo di pesca</ingrediente> bianca,fettina di <ingrediente>pesca</ingrediente> per guarnizione,zucchero q.b.</ingredienti>
+    <procedimento>Per ottenere il succo di pesca bianca lavate accuratamente il frutto, tagliatelo a spicchi che priverete della buccia e passatelo nel frullatore insieme con il ghiaccio tritato o spezzettato.
+    Filtrate il succo con un colino a maglia fine e versatelo in un bicchiere. 
+    Aggiungete il prosecco ben freddo e mescolate delicatamente. 
+    Guarnite con una fetta di pesca tagliata finemente e passata nello zucchero.</procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>10</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Asparagi in sfoglia con crudo">
+    <tipo>antipasti</tipo>
+    <img><url>immagini/ricette/asparagi/preview.jpg</url><alt>Impiattamento degli asparagi in sfoglia con crudo</alt></img>
+    <descrizione>Gli asparagi in sfoglia con crudo sono degli sfiziosissimi antipasti saporiti preparati con gli asparagi. 
+    Gli asparagi verranno avvolti da una fetta di prociutto crudo, scaglie di grana e pasta sfoglia per un risultato ricco di contrasti deliziosi! Il sapore delicato degli asparagi infatti ben si sposa con quello deciso del grana e del prosciutto crudo, mentre la sfoglia chiude in bellezza una volta cotta rendendo questi antipastini croccanti all'esterno e ancora piu' allettanti!</descrizione>
+    <ingredienti>8 <ingrediente>asparagi</ingrediente> verdi, 250 gr di <ingrediente>pasta sfoglia</ingrediente>,8 fette di <ingrediente>prosciutto crudo</ingrediente>,30 gr di <ingrediente>grana padano</ingrediente> a scaglie,un <ingrediente>uovo</ingrediente></ingredienti>
+    <procedimento>Per preparare gli asparagi in sfoglia con crudo iniziate pulendo gli asparagi, eliminate le parti bianche dei gambi (1) e raschiateli per eliminare le parti esterne più dure. Raccoglieteli in un mazzetto legato con dello spago da cucina e bolliteli in acqua salata per 8/10 minuti, fino a che saranno cotti ma ancora croccanti. Scolate gli asparagi, lasciateli raffreddare e asciugare. Stendete il rotolo di pasta sfoglia, spianatelo leggermente con un mattarello e ricavate con un coltello 8 strisce di pasta (2) larghe circa 3 cm. Stendete le fette di prosciutto crudo, cospargeteli di scaglie di grana (3),<img><url>immagini/ricette/asparagi/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>adagiatevi gli asparagi e arrotolatevi il prosciutto crudo intorno (4) .
+    Utilizzate le strisce di pasta sfoglia per avvolgere gli asparagi con prosciutto crudo a spirale. Spennellate gli asparagi in sfoglia con l’uovo sbattuto, (5) su tutta la superficie e adagiateli su una placca foderata con carta da forno e cuocete per 15 minuti a 200°C, fino a quando la sfoglia sarà cotta e ben dorata (6). Servite gli asparagi in sfoglia con prosciutto crudo ben caldi!<img><url>immagini/ricette/asparagi/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>25</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Pappardelle con speck e funghi porcini">
+    <tipo>primi</tipo>
+    <img><url>immagini/ricette/pasta_funghi/preview.jpg</url><alt>Impiattamento pappardelle con speck e funghi porcini</alt></img>
+    <descrizione>Le pappardelle con porcini e speck, sono un primo piatto autunnale molto gustoso, una vera leccornia per gli estimatori dei funghi porcini! Questa pietanza, originaria del Trentino Alto Adige, prevede l’accostamento dello speck, (vanto regionale), ai funghi porcini, e crea un binomio vincente di sapore e bontà.</descrizione>
+    <ingredienti>300 gr di <ingrediente>pasta</ingrediente> (pappardelle all'uovo),500 gr di <ingrediente>funghi porcini</ingrediente>,2 cucchiai di <ingrediente>prezzemolo</ingrediente>,1 spicchio di <ingrediente>aglio</ingrediente>,un <ingrediente>scalogno</ingrediente>,120 gr di <ingrediente>speck</ingrediente> a dadini,5 cucchiai di<ingrediente>olio extra vergine di oliva</ingrediente>,pepe q.b.</ingredienti>
+    <procedimento>Pulite molto bene i porcini e tagliateli a fette non troppo sottili (1-2). Portate a bollore una pentola contenente abbondante acqua. 
+    Mondate lo scalogno, tritatelo finemente e mettetelo ad appassire  a  fuoco basso in una padella con l’olio e uno spicchio di aglio schiacciato (o tagliato a metà, così sarà più agevole toglierlo dopo la cottura se non desiderate mantenerlo nel condimento). Quando lo scalogno sarà appassito senza aver preso colore, aggiungete lo speck (3)<img><url>immagini/ricette/pasta_funghi/step_123.jpg</url><alt>illustrazione degli step 1, 2, 3 della preparazione</alt></img>e lasciatelo rosolare per 5 minuti stando attenti a non bruciare lo scalogno (4).
+    A questo punto aggiungete i porcini e lasciateli cucinare a fuoco moderato per circa 10 minuti (5), girandoli di tanto in tanto;  nel frattempo lessate le pappardelle in abbondante acqua salata (6).<img><url>immagini/ricette/pasta_funghi/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>Quando i funghi saranno cotti, aggiungete qualche mestolo di acqua di cottura della pasta, pepate, e aggiustate eventualmente di sale (7) e aggiungete il prezzemolo tritato (8). Quando le pappardelle saranno cotte e ancora al dente, scolatele lasciando un residuo di acqua di cottura, e buttatele nel condimento preparato (9): mescolate bene fino ad addensare il sugo, e impiattate, guarnendo ogni porzione, con un ciuffetto di prezzemolo fresco.<img><url>immagini/ricette/pasta_funghi/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img></procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>40</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Cosce di pollo alla senape e pancetta">
+    <tipo>secondi</tipo>
+    <img><url>immagini/ricette/pollo_bacon/preview.jpg</url><alt>Impiattamento cosce di pollo alla senape pancetta</alt></img>
+    <descrizione>Se amate il pollo ecco una ricetta davvero semplice e sfiziosa che sicuramente piacerà a tutti in famiglia, bimbi compresi: le cosce di pollo con senape e pancetta. </descrizione>
+    <ingredienti>8 cosce di <ingrediente>pollo</ingrediente>,16 fette di <ingrediente>pancetta</ingrediente>,2 spicchi d'<ingrediente>aglio</ingrediente>,2 rametti di <ingrediente>rosmarino</ingrediente>,5 foglie di <ingrediente>salvia</ingrediente>,mezzo bicchiere di <ingrediente>vino</ingrediente> bianco, 2 cucchiai di <ingrediente>senape</ingrediente>,pepe q.b.,sale q.b.</ingredienti>
+    <procedimento>Lavate ed asciugate per bene le cosce di pollo: eliminate la pelle esterna , tirandola verso l'estremità più sottile (1) e poi incidete (2) la carne di ogni fuso in 4 punti equidistanti tra loro. 
+    Massaggiate le cosce con abbondante senape, facendola penetrare anche all’interno delle incisioni (3).<img><url>immagini/ricette/pollo_bacon/step_123.jpg</url><alt>illustrazione degli step 1, 2, 3 della preparazione</alt></img>Avvolgete ogni fuso con 2 fettine di pancetta (4) e disponeteli poi tutti e 8 in una teglia (5):  irrorate di olio , aggiungendo le foglie di salvia, i rametti di rosmarino spezzettati, l’aglio tagliato a fettine , il sale e il pepe macinato ed infine il vino bianco (6). Infornate i fusi di pollo in forno già caldo a 180° per 45-50 minuti (dipende dalla grandezza), bagnandoli un paio di volte con il fondo di cottura; dopo averne verificato la cottura, estraeteli e serviteli immediatamente.<img><url>immagini/ricette/pollo_bacon/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>20</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Carote al latte">
+    <tipo>contorni</tipo>
+    <img><url>immagini/ricette/carote/preview.jpg</url><alt>Impiattamento delle carote al latte accompagnate da delle fette di pane</alt></img>
+    <descrizione>Le carote al latte, sono un contorno delicato e insolito, molto appetitoso e di facile esecuzione che ben si affianca a pietanze dai sapori molto forti; il sapore dolciastro delle carote, esaltato dalla cottura nel latte, rende questo contorno molto apprezzato dai bambini, che ne amano la particolare dolcezza.
+    Le carote al latte sono pronte in poco tempo e soddisferanno anche i palati più esigenti!</descrizione>
+    <ingredienti>800 gr di <ingrediente>carote</ingrediente>,300 ml di <ingrediente>latte</ingrediente>,150 ml di <ingrediente>acqua</ingrediente>,30 gr di <ingrediente>burro</ingrediente>,20 gr di <ingrediente>farina</ingrediente>,un pizzico di <ingrediente>noce moscata</ingrediente>,sale q.b.</ingredienti>
+    <procedimento>Per preparare le carote al latte, lavate e pelate le carote, quindi tagliatele a rondelle dello spessore di circa 3 mm.
+    Sciogliete 30 gr di burro in un tegame largo e basso, quindi aggiungete la farina, mescolate e poi aggiungete il latte, l’acqua, la noce moscata e il sale: mescolate bene con una frusta per evitare la formazione di grumi e non appena il liquido in pentola comincerà a bollire aggiungete le carote affettate. Lasciate cuocere le carote al latte dolcemente fino a che saranno tenere ma non sfatte e il liquido di cottura si sarà addensato e parecchio asciugato. Prima della fine della cottura, regolate eventualmente di sale e poi servite le carote al latte calde e cremose. Se vi piace, potete cospargerle con del prezzemolo tritato, oppure (se non dovete servirle a dei bambini) spolverizzatele con del pepe bianco.</procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>15</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Ciambella marmorizzata">
+    <tipo>dolci</tipo>
+    <img><url>immagini/ricette/ciambella/preview.jpg</url><alt>Ciambella ultimata e posizionata su un vassoio</alt></img>
+    <descrizione>La ciambella marmorizzata, è un dolce semplice, adatto alla prima colazione o alla merenda; è formato da un doppio impasto chiaro e scuro (dovuto al contenuto di cacao amaro), che sapientemente mischiato, a cottura avvenuta, forma un effetto ottico simile alle venature del marmo.
+    La ciambella marmorizzata, appena sfornata viene capovolta su di un piatto da portata e cosparsa di abbondante zucchero al velo.</descrizione>
+    <ingredienti>250 gr. di <ingrediente>burro</ingrediente>, 1 bustina di <ingrediente>vanillina</ingrediente>,1 presa di <ingrediente>sale</ingrediente>,1 bustina (16 gr.) di <ingrediente>lievito in polvere</ingrediente>,500 gr. di <ingrediente>farina</ingrediente> 00,30 gr. di <ingrediente>cacao</ingrediente> in polvere,6 <ingrediente>uova</ingrediente>,300 gr. di <ingrediente>zucchero</ingrediente>,200 gr. di <ingrediente>latte</ingrediente> intero</ingredienti>
+    <procedimento>Mettete il burro precedentemente ammorbidito a pezzetti in una planetaria insieme allo zucchero (1) e montate gli ingredienti fino a formare una crema bianca e spumosa. 
+    Unite le 6 uova a temperatura ambiente una alla volta (2), il sale e sbattete per almeno 5 minuti, fino ad ottenere un composto omogeneo e senza grumi. Unite  al composto ottenuto la farina (tranne 45 gr che terrete da parte), il lievito e la vanillina dopo averli setacciati insieme (3) alternando l’aggiunta del latte.<img><url>immagini/ricette/ciambella/step_123.jpg</url><alt>illustrazione degli step 1, 2, 3 della preparazione</alt></img>Amalgamate bene gli ingredienti (4), poi dividete l’impasto in due parti uguali (5) e incorporate in una ciotola la farina restante e nell’altra il cacao setacciato (6). 
+    Dovrete ottenere due impasti di uguale consistenza che si stacchino pesantemente dal mestolo (nel caso uno dei due risultasse più denso, aggiungete uno o due cucchiai di latte per stemperarlo).<img><url>immagini/ricette/ciambella/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>Imburrate ed infarinate uno stampo per ciambella del diametro di  26 cm (meglio se a cerchio a pribile) ed adagiatevi l’impasto chiaro, diviso in tre parti (7); fate la stessa cosa con quello scuro (8) andando a colmare i vuoti rimanenti tra l’impasto chiaro. Per ottenere l’effetto marmorizzato, fate passare a spirale una forchetta dall’alto verso il basso attraverso i due colori dell’impasto (9). Infornate la ciambella per circa 40-45 minuti a 180°. Controllate la cottura verificando con uno stuzzicadenti : se pungendo in profondita’ la ciambella non rimarranno residui sullo stuzzicadenti, il dolce sara’ cotto. Sformate la ciambella, posizionatela su di un piatto e cospargetela a piacimento di zucchero al velo.<img><url>immagini/ricette/ciambella/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>20</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Capesante gratinate">
+    <tipo>antipasti</tipo>
+    <img><url>immagini/ricette/capesante/preview.jpg</url><alt>Impiattamento capesante</alt></img>
+    <descrizione>Le capesante gratinate sono una ricetta appartenente soprattutto alla tradizione natalizia e rappresentano un piatto molto semplice da preparare ma allo stesso tempo molto originale e saporito.</descrizione>
+    <ingredienti>8 <ingrediente>capesante</ingrediente>, 250 ml di <ingrediente>brodo</ingrediente>, 50 gr. <ingrediente>parmigiano reggiano </ingrediente>, 80 gr di <ingrediente>pangrattato</ingrediente>, mezzo bicchiere di <ingrediente>olio</ingrediente>, due spicchi di <ingrediente>aglio</ingrediente>, due cucchiai di <ingrediente>prezzemolo</ingrediente>, pepe q.b., sale q.b.</ingredienti>
+    <procedimento>Mescolate in una terrina il pane grattugiato, il prezzemolo, il formaggio, l’aglio schiacciato, il pepe (1), un pizzico di sale, aggiungete  3/4 dell'olio (2) e il brodo (quanto basta per ottenere un composto cremoso, né troppo asciutto né troppo liquido) (3).<img><url>immagini/ricette/capesante/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Dopo avere ben amalgamato gli ingredienti, ottenendo una preparazione omogenea cremosa ma non liquida, mettete tutte le capesante in una teglia (5), e ricopritele con la farcia che avete preparato (6) e irroratele d'olio.
+    Fate preriscaldare il forno a 200° e fate cuocere le vostre capesante per almeno 10-15 minuti fino a che la farcia abbia acquisito un bel colorito dorato. Sfornate e servite le capesante gratinate ancora calde… buon appetito!<img><url>immagini/ricette/capesante/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>30</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Fiori di zucca in pastella">
+    <tipo>antipasti</tipo>
+    <img><url>immagini/ricette/fiori/preview.jpg</url><alt>Vassoio di fiori di zucca pastellati</alt></img>
+    <descrizione>I fiori di zucca fritti sono degli antipasti gustosi e semplici da preparare: una volta puliti, i fiori di zucca vengono immersi in pastella e poi fritti nell’olio di semi. Con poche mosse potrete servire un delizioso antipasto dai sapori primaverili.</descrizione>
+    <ingredienti>270 gr. di <ingrediente>fiori di zucca</ingrediente>, 275 ml di <ingrediente>acqua</ingrediente>, 185 gr. di <ingrediente>farina</ingrediente>, pepe q.b., sale q.b.</ingredienti>
+    <procedimento>Lavate per bene i fiori, immergete delicatamente i fiori di zucca in acqua fredda poi sgocciolateli e poneteli a scolare su di un panno asciutto con il quale li tamponerete delicatamente; eliminate il gambo (1) divaricate leggermente i fiori di zucca con le dita ed estraete i pistilli carnosi posti all’interno e sulla base dei fiori stessi (2-3).<img><url>immagini/ricette/fiori/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Una volta puliti ponete i fiori di zucca in una ciotola (4).
+    Nel frattempo preparate la pastella : mettete la farina setacciata in una capiente ciotola, aggiungete poco alla volta l’acqua (5) mescolando con una frusta per evitare i grumi. Una volta che avrete ottenuto un composto liscio aggiungete il sale (6).
+    Ponete a scaldare un’ampia padella con l’olio di semi per la frittura.<img><url>immagini/ricette/fiori/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>A questo punto avvolgete delicatamente nella pastella i fiori (7), ad uno ad uno, cercando di non romperli e subito dopo immergete il fiore nell’olio bollente (8), girandolo durante la cottura.
+    Appena cotti , scolate i fiori di zucca e lasciateli asciugare su un vassoio rivestito di carta assorbente (9). Servite i fiori di zucca fritti ben caldi.<img><url>immagini/ricette/fiori/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>5</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Mezzelune al salmone ed erba cipollina">
+    <tipo>primi</tipo>
+    <img><url>immagini/ricette/mezzelune/preview.jpg</url><alt>Impiattamento capesante</alt></img>
+    <descrizione>Le mezzelune al salmone ed erba cipollina, sono un primo piatto dal sapore molto delicato ma, nello stesso tempo, formano una pietanza molto saporita e sostanziosa per la presenza della sfoglia fresca all'uovo e del ripieno di ricotta e salmone affumicato.</descrizione>
+    <ingredienti>400 gr di <ingrediente>pasta fresca</ingrediente> all'uovo, 400 gr. di <ingrediente>ricotta</ingrediente> di mucca, 300 gr. <ingrediente>salmone</ingrediente> affumicato, 4 cucchiai di <ingrediente>erba cipollina</ingrediente>, 100 gr. di <ingrediente>burro</ingrediente>, due spicchi di <ingrediente>aglio</ingrediente>, pepe q.b., sale q.b.</ingredienti>
+    <procedimento>Preparate la pasta all'uovo come più preferite.
+    Tritate il salmone finemente con il coltello, mettetelo in una ciotola ed aggiungete la ricotta, 2 cucchiai di erba cipollina tritata e un po' di pepe macinato al momento; amalgamente bene, assaggiate e se occorre aggiustate di sale.
+    Prendete la pasta all'uovo e tiratela a mano o con la macchina della pasta formando una sfoglia il più sottile possibile; con l'aiuto di un tagliapasta rotondo ricavate dei dischi del diametro di almeno 5 cm.<img><url>immagini/ricette/mezzelune/step_123.jpg</url><alt>illustrazione degli step 1, 2, 3 della preparazione</alt></img>Adagiate sopra ogni disco un pò di ripieno, poi chiudetelo su se stesso e formate una mezzaluna, quindi pressate leggermente i bordi per saldarli; se la pasta non dovesse aderire bene, con l'aiuto di un pennellino, inumidite i bordi con dell'acqua.<img><url>immagini/ricette/mezzelune/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>Fate cuocere le mezzelune in una pentola con abbondante acqua salata per 6-7 minuti; nel frattempo fate fondere il burro in una padella. Scolate le mezzelune, conditele con il burro fuso e cospargetele con l'erba cipollina tritata.
+    Servite le mezzelune al salmone ben calde.<img><url>immagini/ricette/mezzelune/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img></procedimento>
+    <difficolta>alta</difficolta>
+    <tempo_preparazione>60</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Gnocchi alla romana">
+    <tipo>primi</tipo>
+    <img><url>immagini/ricette/gnocchi_romana/preview.jpg</url><alt>Teglia di gnocchi alla romana appena sfornati</alt></img>
+    <descrizione> Gli gnocchi alla romana, sono un primo piatto di origine laziale, il cui nome è entrato nella cucina internazionale per identificare dei dischetti tondi di semolino, che viene cotto nel latte e arricchito da formaggio e tuorli d'uovo; questi deliziosi dischetti vengono successivamente disposti in teglia con burro e formaggio, gratinati al forno e serviti caldissimi.</descrizione>
+    <ingredienti>250 gr. di <ingrediente>semolino</ingrediente>, 1 lt. di <ingrediente>latte</ingrediente>, 100 gr. di <ingrediente>burro</ingrediente>, 2 tuorli di <ingrediente>uovo</ingrediente>, 120 gr. di <ingrediente>parmigiano reggiano</ingrediente>, 30 gr. di <ingrediente>groviera</ingrediente>, noce moscata q.b., sale q.b.</ingredienti>
+    <procedimento>Per preparare gli gnocchi alla romana, ponete il latte in un tegame sul fuoco, unitamente a una noce di burro (1), ad un grosso pizzico di sale, e alla noce moscata (2); appena bollirà versatevi a pioggia il semolino (3), mescolando energicamente con una frusta, per evitare la formazione di grumi.<img><url>immagini/ricette/gnocchi_romana/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Cuocete il composto a fuoco basso per qualche minuto, fino a che il semolino si addensi (4), dopodiché togliete il recipiente dal fuoco ed incorporate al composto i due tuorli (5) e gli 80 gr di parmigiano reggiano grattugiato (6).<img><url>immagini/ricette/gnocchi_romana/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>Versate il composto ottenuto in una teglia capiente (preventivamente bagnata o oliata) e dai bordi bassi, e livellatelo con l’aiuto di un coltello bagnato (7), ottenendo uno strato di circa 1 cm (8) (Se quando dovrete livellare il semolino nella teglia, non vi troverete bene ad usare il coltello, provate a fare questa operazione bagnandovi le mani e premendo con il loro palmo: otterrete un ottimo risultato in minor tempo).
+    Prendete una teglia e imburratela (9).<img><url>immagini/ricette/gnocchi_romana/step_789.jpg</url><alt>illustrazione degli step 7, 8 ,9 della preparazione</alt></img>Accendete il forno a 200°.
+    Non appena il semolino si sarà raffreddato, con l’aiuto di un bicchiere, una tazzina o un tagliapasta di forma tonda, ricavatene tanti dischi (10) del diametro di circa 5 cm, che andrete ad adagiare nella pirofila (11) sovrapponendo leggermente un disco all’altro (11).
+    Quando avrete sistemato tutti i dischi nella pirofila, cospargete la superficie con il parmigiano, groviera grattugiato, fondete il burro rimasto e irrorate per bene la preparazione (12) (se lo desiderate, al posto della classica pirofila larga, potete preparare dei cerchietti più piccolli con cui andrete a comporre delle simpatiche monoporzioni).
+    Mettete la pirofila nel forno già caldo e lasciate gratinare i vostri gnocchi alla romana per circa 20-25 minuti, finchè si formerà una bella crosticina dorata.<img><url>immagini/ricette/gnocchi_romana/step_101112.jpg</url><alt>illustrazione degli step 10, 11 ,12 della preparazione</alt></img></procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>45</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Spezzatino di seitan con verdure stufate">
+    <tipo>secondi</tipo>
+    <img><url>immagini/ricette/seitan/preview.jpg</url><alt>Impiattamento dello spezzatino</alt></img>
+    <descrizione>Lo spezzatino di seitan (alimento ricavato dal glutine) con verdure stufate, è un ottimo secondo piatto vegano, leggero, saporito e pronto in pochi minuti.
+    Per tutte le persone che vogliono o devono sostituire la carne nella loro dieta, questo piatto a base di seitan è una valida e appetitosa alternativa, realizzabile con pochi e comuni ingredienti come carote, sedano, cipolla, salsa di soia e olio di oliva.</descrizione>
+    <ingredienti>500 gr. di <ingrediente>seitan</ingrediente>, 2 <ingrediente>carote</ingrediente> grandi, 2 coste di <ingrediente>sedano</ingrediente>, 1 <ingrediente>cipolla</ingrediente>, 1 cucchiaio di <ingrediente>salsa di soia</ingrediente>, 50 ml. di <ingrediente>vino</ingrediente>bianco, 3 cucchiai di <ingrediente>olio</ingrediente> di oliva extravergine, 1 cucchiaio di <ingrediente>prezzemolo</ingrediente> tritato, sale q.b.</ingredienti>
+    <procedimento>Mondate e lavate le verdure, poi tritate la cipolla e tagliate a cubetti il sedano e le carote.
+    In un tegame ponete l’olio e la cipolla, che farete appassire (1); nel frattempo riducete il seitan a cubetti (2) e quando la cipolla sarà appassita aggiungete il sedano e la carota, e lasciate stufare anch’essi (3).<img><url>immagini/ricette/seitan/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Aggiungete il seitan nel tegame con le verdure e poi sfumate con il vino bianco (4); in ultimo unite anche un cucchiaio di salsa di soia (5), poi aggiustate eventualmente di sale e aggiungete il prezzemolo tritato (6).
+    Servite lo spezzatino di seitan ancora caldo.<img><url>immagini/ricette/seitan/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+  </ricetta>
+  
+  <ricetta nome="Meringhe tricolore">
+    <tipo>dolci</tipo>
+    <img><url>immagini/ricette/meringhe/preview.jpg</url><alt>Una meringa pronta</alt></img>
+    <descrizione>Le meringhe tricolore sono formate da una doppia meringa tenuta insieme da della crema preparata con zucchero a velo e panna che rendono questo dolce ancora più goloso e sfizioso.
+    Noi vi proponiamo una versione delle meringhe tricolore preparate appunto con i colori della bandiera italiana, ma voi potete sbizzarrirvi cambiando i colori a vostro piacimento e adattandoli secondo vostro gusto personale ad ogni occasione.
+    Ovviamente le meringhe possono essere lasciate anche bianche!</descrizione>
+    <ingredienti>100 gr. di <ingrediente>albumi</ingrediente> d'uovo, 250 gr. di <ingrediente>zucchero</ingrediente>, 200 ml. di <ingrediente>panna</ingrediente>, poche gocce di <ingrediente>colorante alimentare</ingrediente> rosso e verde</ingredienti>
+    <procedimento>Prima di tutto è necessario preparare l'impasto per le meringhe.
+    Quindi dividete i tuorli dagli albumi e aggiungete a questi ultimi un pizzico di sale più metà dello zucchero a velo.
+    Montate gli albumi a neve ben ferma e incorporate il resto dello zucchero a velo delicatamente fino a quando gli ingredienti non saranno ben amalgamati (1).Una volta che l'impasto risulterà liscio e omogeneo dividetelo in due parti uguali e unite i coloranti (2). Mettete gli impasti in una tasca da pasticcere munita di bocchetta larga e formate delle meringhe sopra ad una teglia foderata con carta forno (3).
+    Lasciate cuocere le meringhe a 90 gradi per un'ora a forno ventilato (oppure in forno statico a 80 gradi), poi portate la temperatura a 50 gradi e fate asciugare per altri 45 minuti tenendo socchiusa la porta del forno magari inserendo un mestolo di legno nell'apertura. Trascorso questo tempo verificate la cottura delle meringhe.<img><url>immagini/ricette/meringhe/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Dopodichè unite in un frullatore lo zucchero a velo e la panna fino a che gli ingredienti non saranno ben amalgamati (4).
+    Dopodichè ponete l'impasto ottenuto in una tasca da pasticciere e spremetene un poco (5) sulla parte piatta di metà delle meringhe preparate. Subito dopo adagiate sulla crema l'altra metà della meringa (6) tricolore che sarà pronta per essere servita.<img><url>immagini/ricette/meringhe/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+  </ricetta>
+  
+  <ricetta nome="Insalata rucola, pere e noci">
+    <tipo>contorni</tipo>
+    <img><url>immagini/ricette/insalata/preview.jpg</url><alt>Ingredienti per la ricetta</alt></img>
+    <descrizione>L’insalata di rucola, pere, grana e noci è un contorno ricco di sapori diversi e contrastanti che ben si sposano tra di loro: un contorno adatto ad una tavola imbandita per le feste.</descrizione>
+    <ingredienti>150 gr. di <ingrediente>rucola</ingrediente>, 2 <ingrediente>pere</ingrediente>, 100 gr. di <ingrediente>parmigiano</ingrediente> a scaglie, 50 gr. di <ingrediente>noci</ingrediente>, olio di oliva q.b., sale q.b., pepe q.b., aceto balsamico q.b.</ingredienti>
+    <procedimento>Lavate ed asciugate la rucola. Sbucciate le pere e tagliatele a pezzetti non troppo grossi. Spezzettate grossolanamente i gherigli delle noci lasciandone qualcuno intero per decorazione .
+    Potete decidere di preparare l’insalata in un’unica ciotola oppure di preparare 4 porzioni individuali; prendete 4 piatti da insalata (o ciotoline) e dividete la rucola in parti uguali, quindi cospargete i piatti con i pezzetti di pera, le scaglie di grana e i gherigli spezzettati (e interi) delle noci. Portate in tavola olio, sale, limone, aceto balsamico e lasciate che i commensali condiscano l’insalata secondo i loro gusti.<img><url>immagini/ricette/insalata/step_123.jpg</url><alt>Come tagliare le pere</alt></img></procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>10</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Insalata di fave">
+    <tipo>contorni</tipo>
+    <img><url>immagini/ricette/fave/preview.jpg</url><alt>Piatto ultimato</alt></img>
+    <descrizione>L’insalata di fave è una ricetta semplice della tradizione contadina, si prepara con fave fresche leggermente scottate e condite con una vinaigrette e scaglie di pecorino romano. Un contorno primaverile gustoso e genuino ideale per il menu di pasqua.</descrizione>
+    <ingredienti>1 kg. di <ingrediente>fave</ingrediente>, 1 spicchio di <ingrediente>aglio</ingrediente>, prezzemolo q.b., pecorino q.b., olio di oliva q.b., sale q.b., pepe q.b., aceto balsamico q.b.</ingredienti>
+    <procedimento>Per preparare l’insalata di fave iniziate sgranando le fave fresche, dividete a metà il baccello ed estraete i semi (1), eliminate poi l'escrescenza che ricopre il seme della fava (2). A questo punto fate cuocere le fave in abbondante acqua bollente per 3 / 4 minuti, devono rimanere croccanti (3).
+    Scolatele e fatele raffreddare sotto l'acqua corrente.<img><url>immagini/ricette/fave/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Preparate intanto la vinaigrette mettendo in una ciotola l’aceto, l’olio il sale, il pepe e l’aglio tritato (4). Tagliate infine il pecorino a scaglie con l’aiuto di un pelapatate (5). Una volta raffreddate trasferite le fave in una capiente insalatiera , conditele con la vinaigrette (6), aggiungete il pecorino tagliato a scaglie e servite.<img><url>immagini/ricette/fave/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img></procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>10</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Torta magica al cioccolato">
+    <tipo>dolci</tipo>
+    <img><url>immagini/ricette/torta_magica/preview.jpg</url><alt>Taglio della torta magica</alt></img>
+    <descrizione>La particolarità di questa torta è la consistenza: tre diversi strati in un'unica preparazione, che si formano grazie all'ordine e al peso degli ingredienti: una superficie tipo pan di spagna, uno strato centrale budinoso e l'ultimo simile ad un flan. Concedetevi una pausa dolce, con l'irresistibile cremosità della torta magica al cacao!</descrizione>
+    <ingredienti>65 gr. di <ingrediente>farina</ingrediente> 00, 50 gr. di <ingrediente>cacao</ingrediente> in polvere, 4 <ingrediente>uova</ingrediente>, 1 cucchiaio di <ingrediente>acqua</ingrediente> fredda,150 gr. di <ingrediente>zucchero</ingrediente> semolato, 125 gr. <ingrediente>burro</ingrediente> fuso, 1 pizzico di <ingrediente>sale</ingrediente>, 1 cucchiaio di <ingrediente>limone</ingrediente> (succo), 500 ml. di <ingrediente>latte</ingrediente>tiepido</ingredienti>
+    <procedimento>Per preparare la torta magica al cacao iniziate facendo fondere il burro in un pentolino. Fate attenzione a non farlo scurire e una volta fuso, versatelo in una ciotola e lasciatelo raffreddare a temperatura ambiente. Dividete poi gli albumi dai tuorli e versate i tuorli a temperatura ambiente nella ciotola di una planetaria (potete anche utilizzare uno sbattitore elettrico); aggiungete lo zucchero (1).
+    Montate il composto per almeno 10 minuti, fino a quando non sarà bianco e spumoso. Quindi sempre sbattendo, unite anche un cucchiaio di acqua (2) e un cucchiaio di estratto di vaniglia (3).<img><url>immagini/ricette/torta_magica/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Aggiungete un pizzico di sale (4) e il burro fuso in precedenza  che avete fatto raffreddare (5).
+    Continuate a sbattere per qualche minuto, poi setacciate la farina e il cacao all’interno del composto (6)<img><url>immagini/ricette/torta_magica/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img> a continuate a lavorarlo per incorporare le polveri (7).
+    Nel frattempo mettete a scaldare il latte in un pentolino; fatelo poi intiepidire e unitelo al composto (8). Lasciate incorporare per circa 1 minuto: è fondamentale che il composto non presenti grumi, se così fosse, potete setacciare il composto con un colino a maglie strette. Poi trasferite l'impasto ottenuto in una ciotola capiente (9).<img><url>immagini/ricette/torta_magica/step_789.jpg</url><alt>illustrazione degli step 7, 8, 9 della preparazione</alt></img>A questo punto prendete spremete il succo del limone (10), prendete la ciotola dove avete conservato gli albumi a temperatura ambiente e montateli a neve non troppo ferma, unendo il succo di limone o di aceto di vino bianco (11-12).<img><url>immagini/ricette/torta_magica/step_101112.jpg</url><alt>illustrazione degli step 10, 11, 12 della preparazione</alt></img>Incorporate gli albumi montati a neve al resto del composto delicatamente, in modo da non smontarli (13) e mescolate; otterrete un impasto piuttosto liquido (14).
+    Imburrate una teglia quadrata di 20x20 cm (15)<img><url>immagini/ricette/torta_magica/step_131415.jpg</url><alt>illustrazione degli step 13, 14, 15 della preparazione</alt></img>e foderate sia il fondo che i bordi con la carta forno (16): le dimensioni della teglia sono importanti per ottenere lo spessore corretto della torta. Quindi versate il composto nella teglia imburrata e foderata (17) e infornate in forno statico preriscaldato a 150° per circa 80 minuti, finchè la superficie della torta magica non risulterà ben dorata; se usate un forno ventilato, cuocete a 130° per 70 minuti. Una volta cotta, estraetela dal forno (18) e controllate con uno stuzzicadenti che la torta sia sufficientemente soda, non liquida. Quindi lasciatela raffreddare completamente a temperatura ambiente.<img><url>immagini/ricette/torta_magica/step_161718.jpg</url><alt>illustrazione degli step 16, 17, 18 della preparazione</alt></img>Dopodichè ricopritela con la pellicola (19) e lasciatela compattare in frigo per almeno 2 ore. Quando la torta si sarà compattata, sformatela dalla teglia, e tagliatela a cubotti (20).
+    Per facilitare il taglio, usate un coltello a lama liscia e lunga bagnata con dell’acqua. Sistemate i cubotti su un vassoio (21) e se gradite spolverizzateli con lo zucchero a velo e cacao amaro in polvere:  la vostra torta magica sarà pronta per essere servita e gustata!<img><url>immagini/ricette/torta_magica/step_192021.jpg</url><alt>illustrazione degli step 19, 20, 21 della preparazione</alt></img></procedimento>
+    <difficolta>alta</difficolta>
+    <tempo_preparazione>100</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Negroni">
+    <tipo>aperitivi</tipo>
+    <img><url>immagini/ricette/negroni/preview.jpg</url><alt>Bicchiere di negroni pronto da bere</alt></img>
+    <descrizione>Il Negroni è una bevanda alcolica a base di gin, bitter Campari e vermut rosso.
+    Fresco e dall'inconfondibile color arancione scuro è nato come aperitivo ma è spesso servito come cocktail/digestivo dopo cena.
+    Il Negroni è nato negli anni 20 nel Caffè Casoni di Firenze quando il conte Camillo Negroni chiese al barista Fosco Scarselli di sostituire il seltz dell'aperitivo "Americano" con il gin.</descrizione>
+    <ingredienti>3 cl. di <ingrediente>bitter Campari</ingrediente>, 3 cl. di <ingrediente>gin</ingrediente>, 3 cl. di <ingrediente>vermut</ingrediente> rosso, 1 fetta di <ingrediente>arancia</ingrediente>, cubetti di ghiaccio q.b.</ingredienti>
+    <procedimento>In un bicchiere basso e largo unite in parti uguali gin, il bitter Campari, il vermut rosso dolce, completate con qualche cubetto di ghiaccio, mescolate decorando con una fetta di arancia e servite.</procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>10</tempo_preparazione>
+    <dosi_per>1</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Mezzoemezzo">
+    <tipo>aperitivi</tipo>
+    <img><url>immagini/ricette/mezzo/preview.jpg</url><alt>Bicchiere di mezzoemezzo pronto da bere</alt></img>
+    <descrizione>A Bassano del Grappa l'aperitivo è un vero è proprio rito.
+    Il Mezzoemezzo è l'aperitivo locale per eccellenza che potrete degustare solo a Bassano sul Ponte Vecchio(da Nardini basso) o in Viale delle Fosse(da Nardini alto).</descrizione>
+    <ingredienti>3.5 cl. di <ingrediente>rabarbaro Nardini</ingrediente>, 3.5 cl. di <ingrediente>rosso Nardini</ingrediente>, 3 cl. di <ingrediente>vermut</ingrediente> rosso, 1 fetta di <ingrediente>arancia</ingrediente>, 6 cl. di <ingrediente>selz</ingrediente>, una scorzetta di limone</ingredienti>
+    <procedimento>Versare gli ingredienti direttamente nel tradizionale bicchiere della mescita aggiungendo il Rosso Nardini e il Rabarbaro Nardini e poi si colma con seltz. Aggiungere una scorzetta di limone e l’aperitivo è servito!</procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>5</tempo_preparazione>
+    <dosi_per>1</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Martini">
+    <tipo>aperitivi</tipo>
+    <img><url>immagini/ricette/martini/preview.jpg</url><alt>Bicchiere di martini pronto da bere</alt></img>
+    <descrizione>Il Martini Dry è un famoso cocktail pre-cena fresco e dissetante perfetto per le vostre serate estive.</descrizione>
+    <ingredienti>8/10 di <ingrediente>gin</ingrediente>, 2/10 di <ingrediente>vermut</ingrediente>, 1-3 <ingrediente>olive</ingrediente>, 1 fetta di <ingrediente>limone</ingrediente></ingredienti>
+    <procedimento>In un bicchiere raffreddato versate il vermouth e il gin, miscelate velocemente e servite subito in una coppa da cocktail molto fredda decorando con una un'oliva verde e una fettina di limone.</procedimento>
+    <difficolta>bassa</difficolta>
+    <tempo_preparazione>5</tempo_preparazione>
+    <dosi_per>1</dosi_per>
+  </ricetta>
+  
+  <ricetta nome="Rossini">
+    <tipo>aperitivi</tipo>
+    <img><url>immagini/ricette/rossini/preview.jpg</url><alt>Bicchiere di rossini pronto da bere</alt></img>
+    <descrizione>Il Rossini, così battezzato in omaggio al noto compositore Gioacchino Rossini, è la variante del Bellini realizzato con purea di fragole e spumante ghiacciato.
+    Rispetto al Bellini che utilizza una deliziosa frutta estiva il Rossini si prepara con profumata frutta primaverile quindi ve lo consigliamo come aperitivo per il pranzo di Pasqua</descrizione>
+    <ingredienti>3/10 di <ingrediente>purea di fragole</ingrediente>, 7/10 di <ingrediente>Spumante</ingrediente>brut, qualche goccia di limone</ingredienti>
+    <procedimento>Lavare e asciugare con cura 50 g di fragole, poi, con un frullatore, frullarle accuratamentecon 1 cucchiaio di zucchero (facoltativo) e qualche goccia di succo di limone.
+    Con un colino filtrare il succo di fragole per togliere i semi. Versare il succo in un bicchiere e aggiungere 100 ml di vino spumante prosecco (oppure del champagne) ben freddo. Decorare il bicchiere con una fragola.</procedimento>
+    <difficolta>media</difficolta>
+    <tempo_preparazione>10</tempo_preparazione>
+  </ricetta>
+  
+  <ricetta nome="Medaglioni di branzino al vapore con verdure">
+    <tipo>secondi</tipo>
+    <img><url>immagini/ricette/branzino/preview.jpg</url><alt>Impiattamento dei medaglioni di branzino</alt></img>
+    <descrizione> E' un secondo piatto raffinato e molto delicato, sia il pesce che le verdure vengono cotte al vapore e l'unico condimento è una fresca salsa a base di basilico e cipollotto; mentre l'acqua utilizzata per cuocere al vapore è aromatizzata con vino, grani di pepe, cipollotti e porro in modo da  profumare delicatamente anche il branzino e le verdure. Per rendere questo piatto oltre che buono anche bello da vedere, ai tranci di branzino abbiamo dato la forma di piccoli medaglioni guarniti con carote e saporite olive nere, il tutto viene profumato con un ciuffetto di aneto.</descrizione>
+    <ingredienti>800 gr. di <ingrediente>barnzino</ingrediente> in tranci, 3 <ingrediente>carote</ingrediente> piccole, 160 gr. di <ingrediente>fagiolini</ingrediente>, 20 <ingrediente>olive</ingrediente> nere, 1<ingrediente>zucchina</ingrediente>, 3 <ingrediente>patate</ingrediente>, 20 rametti di <ingrediente>aneto</ingrediente>, 1 lt. di <ingrediente>acqua</ingrediente>, 50 ml di <ingrediente>vino</ingrediente> bianco, 6 grani di <ingrediente>pepe</ingrediente> nero, mezzo <ingrediente>porro</ingrediente>, 4<ingrediente>cipollotti</ingrediente>, 80 gr. di <ingrediente>burro</ingrediente>, 5 foglie di <ingrediente>basilico</ingrediente>, pepe q.b., sale q.b.</ingredienti>
+    <procedimento>Per preparare il branzino al vapore con verdure, per prima cosa occupatevi dell'acqua che servirà per la vostra vaporiera.
+    Prendete una pentola, versateci dentro l’acqua e aromatizzatela con il vino e il pepe in grani (1); mondate i cipollotti ed eliminatene i gambi senza però buttarli via (2); mondate anche il porro, eliminando la parte più verde e sfogliando le foglie esterne, tagliatelo a metà e aggiungetene una parte all'acqua insieme ai cipollotti (3).
+    Portate il tutto a bollore.<img><url>immagini/ricette/branzino/step_123.jpg</url><alt>illustrazione degli step 1, 2 ,3 della preparazione</alt></img>Nel frattempo preparate la verdura che vi servirà per accompagnare il branzino: mondate 2 carote, la zucchina e le patate e tagliate tutto a bastoncino (4), per maggiori dettagli sul taglio delle verdure clicca qui (Come tagliare le verdure).
+    Eliminate le estremità dei fagiolini (5) e mettete le verdure nella vaporiera: prima le carote e le patate (6), cuocete per un paio di minuti e<img><url>immagini/ricette/branzino/step_456.jpg</url><alt>illustrazione degli step 4, 5, 6 della preparazione</alt></img>aggiungete anche i fagiolini (7) e per ultime le zucchine (8), quindi salate e pepate (9).<img><url>immagini/ricette/branzino/step_789.jpg</url><alt>illustrazione degli step 7, 8 ,9 della preparazione</alt></img>Coprite con un coperchio e lasciate cuocere (10) finché le verdure risulteranno morbide: occorreranno circa 10 minuti.
+    Nel frattempo occupatevi del pesce, prendete il branzino già eviscerato e squamato, in caso disponiate di un branzino non pulito, guardate la scheda di Scuola di Cucina cliccando qui (Come pulire l'orata), passatelo sotto l'acqua corrente, quindi sistematelo su un tagliere eliminate le pinne e ricavate dei tranci, di sezione tonda (11).
+    Eliminate da ogni trancio la spina centrale, non la pelle, e apriteli bene stando attenti a non romperli (12).<img><url>immagini/ricette/branzino/step_101112.jpg</url><alt>illustrazione degli step 10, 11, 12 della preparazione</alt></img><img>Con un'apposita pinzetta eliminate tutte le lische presenti nella carne, passate il polpastrello sulla superficie del pesce così da individuarle più facilmente (13).
+    Quindi prendete la carota avanzata e con l'aiuto di una mandolina tagliatele a "nastro", ovvero a fettine molto sottili per il senso della lunghezza (14).
+    Sistemate le fettine così ottenute su ogni trancio di pesce (15) che avrete precedentemente salato in superficie,<url>immagini/ricette/branzino/step_131415.jpg</url><alt>illustrazione degli step 13, 14 ,15 della preparazione</alt></img>sopra la carota adagiate un ciuffetto di aneto o prezzemolo tritato (16), ripiegate le estremità dei tranci verso il centro, richiudete il piccolo medaglione ottenuto con un pezzo di spago da cucina (17) e fermate lo spago con un doppio nodo.
+    Una volta ottenuti tutti i medaglioni sistemate al centro di ognuno di essi un'oliva nera denocciolata (18).<img><url>immagini/ricette/branzino/step_161718.jpg</url><alt>illustrazione degli step 16, 17, 18 della preparazione</alt></img>Quando le verdure saranno cotte (19), toglietele dalla vaporiera e al loro posto sistemate i medaglioni di branzino (20), pepate e fate cuocere per 10 minuti coprendo con un coperchio.
+    In un pentolino versate un po' di acqua, portate a bollore e scottate per un paio di minuti i gambi dei cipollotti che avete tenuto da parte (21).<img><url>immagini/ricette/branzino/step_192021.jpg</url><alt>illustrazione degli step 19, 20, 21 della preparazione</alt></img>Una volta pronti scolateli e tritateli insieme al basilico (22) e aggiungeteli al burro, che avrete ammorbidito a bagnomaria, quindi con un frullatore ad immersione, frullate il tutto fino a ottenere una salsa omogenea (23-24), aggiustate di sale e togliete dal bagnomaria.<img><url>immagini/ricette/branzino/step_222324.jpg</url><alt>illustrazione degli step 22, 23, 24 della preparazione</alt></img>Ora che tutti gli ingredienti sono pronti, è il momento di assemblare il piatto: sistemate le verdure su un piatto da portata (noi abbiamo creato una sorta di decorazione incrociando i bastoncini di verdura tra di loro) e disponete accanto i medaglioni di branzino (25).
+    Condite il branzino e le verdure con un filo di salsa al basilico e cipollotto (26) e..ecco pronto il vostro branzino al vapore con verdure (27)!<img><url>immagini/ricette/branzino/step_252627.jpg</url><alt>illustrazione degli step 25, 26, 27 della preparazione</alt></img></procedimento>
+    <difficolta>alta</difficolta>
+    <tempo_preparazione>90</tempo_preparazione>
+    <dosi_per>4</dosi_per>
+  </ricetta>
+</ricette>

@@ -1,0 +1,5 @@
+# rinominare in '.htaccess'
+DirectoryIndex cgi-bin/redirect.pl
+RewriteEngine On
+
+ErrorDocument 404 http://tecnologie-web.studenti.math.unipd.it/tecweb/~mviolett/cgi-bin/404.cgi

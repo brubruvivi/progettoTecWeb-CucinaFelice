@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commenti xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="schemaXml.xsd" n.commenti="9">
+
+  <!--
+  <ricetta nome="#" n.commenti="0 #" segnalato="si"> 0+
+    <commento id="#"> 1+
+      <utente>#</utente>   \c{2,}
+      <abilita>principiante|intermedia|professionista</abilita> 0-1
+      <voto>1|2|3|4|5<voto> 0-1
+      <testo>#</testo>   string
+      <data>YYYY-MM-DDThh:mm:ss #</data>
+    </commento>
+  </ricetta>
+  -->
+  <ricetta nome="Medaglioni di branzino al vapore con verdure"><commento id="1"><utente>Vivi</utente><abilita>intermedia</abilita><voto>5</voto><testo>Ricetta da ristorante di alta classe</testo><data>2014-06-30T09:57:49</data></commento></ricetta><ricetta nome="Carote al latte"><commento id="2" segnalato="si"><utente>Admin</utente><testo>Semplici e buone :)</testo><data>2014-06-30T12:53:17</data></commento></ricetta><ricetta nome="Bellini cocktail"><commento id="4" segnalato="si"><utente>Admin</utente><testo>edfrgbhj</testo><data>2014-07-02T13:36:08</data></commento></ricetta><ricetta nome="Meringhe tricolore"><commento id="6"><utente>utente</utente><voto>5</voto><testo>Buonissime!</testo><data>2014-07-02T17:20:07</data></commento></ricetta></commenti>
